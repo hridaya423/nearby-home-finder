@@ -128,71 +128,63 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@reach/auto-id@0.16.0":
-  version "0.16.0"
-  resolved "https://registry.npmjs.org/@reach/auto-id/-/auto-id-0.16.0.tgz"
+"@reach/auto-id@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@reach/auto-id/-/auto-id-0.18.0.tgz#4b97085cd1cf1360a9bedc6e9c78e97824014f0d"
   dependencies:
-    "@reach/utils" "0.16.0"
-    tslib "^2.3.0"
+    "@reach/utils" "0.18.0"
 
-"@reach/combobox@^0.16.5":
-  version "0.16.5"
-  resolved "https://registry.npmjs.org/@reach/combobox/-/combobox-0.16.5.tgz"
+"@reach/combobox@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@reach/combobox/-/combobox-0.18.0.tgz#8b3879b7c2dc426cddf0941b041d1ddc6d9adee6"
   dependencies:
-    "@reach/auto-id" "0.16.0"
-    "@reach/descendants" "0.16.1"
-    "@reach/popover" "0.16.2"
-    "@reach/portal" "0.16.2"
-    "@reach/utils" "0.16.0"
-    prop-types "^15.7.2"
-    tiny-warning "^1.0.3"
-    tslib "^2.3.0"
+    "@reach/auto-id" "0.18.0"
+    "@reach/descendants" "0.18.0"
+    "@reach/polymorphic" "0.18.0"
+    "@reach/popover" "0.18.0"
+    "@reach/portal" "0.18.0"
+    "@reach/utils" "0.18.0"
 
-"@reach/descendants@0.16.1":
-  version "0.16.1"
-  resolved "https://registry.npmjs.org/@reach/descendants/-/descendants-0.16.1.tgz"
+"@reach/descendants@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@reach/descendants/-/descendants-0.18.0.tgz#16fe52a5154da262994b0b8768baff4f670922d1"
   dependencies:
-    "@reach/utils" "0.16.0"
-    tslib "^2.3.0"
+    "@reach/utils" "0.18.0"
 
 "@reach/observe-rect@1.2.0":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@reach/observe-rect/-/observe-rect-1.2.0.tgz"
 
-"@reach/popover@0.16.2":
-  version "0.16.2"
-  resolved "https://registry.npmjs.org/@reach/popover/-/popover-0.16.2.tgz"
-  dependencies:
-    "@reach/portal" "0.16.2"
-    "@reach/rect" "0.16.0"
-    "@reach/utils" "0.16.0"
-    tabbable "^4.0.0"
-    tslib "^2.3.0"
+"@reach/polymorphic@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@reach/polymorphic/-/polymorphic-0.18.0.tgz#2fe42007a774e06cdbc8e13e0d46f2dc30f2f1ed"
 
-"@reach/portal@0.16.2":
-  version "0.16.2"
-  resolved "https://registry.npmjs.org/@reach/portal/-/portal-0.16.2.tgz"
+"@reach/popover@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@reach/popover/-/popover-0.18.0.tgz#1eba3e9ed826ac69dfdf3b01a1dab15ca889b5fc"
   dependencies:
-    "@reach/utils" "0.16.0"
-    tiny-warning "^1.0.3"
-    tslib "^2.3.0"
+    "@reach/polymorphic" "0.18.0"
+    "@reach/portal" "0.18.0"
+    "@reach/rect" "0.18.0"
+    "@reach/utils" "0.18.0"
+    tabbable "^5.3.3"
 
-"@reach/rect@0.16.0":
-  version "0.16.0"
-  resolved "https://registry.npmjs.org/@reach/rect/-/rect-0.16.0.tgz"
+"@reach/portal@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@reach/portal/-/portal-0.18.0.tgz#dd466f5110689d14a0e7491b3aa8a449e8cefb40"
+  dependencies:
+    "@reach/utils" "0.18.0"
+
+"@reach/rect@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@reach/rect/-/rect-0.18.0.tgz#d1dc45adc92f80cc54b64498e19de909ced40722"
   dependencies:
     "@reach/observe-rect" "1.2.0"
-    "@reach/utils" "0.16.0"
-    prop-types "^15.7.2"
-    tiny-warning "^1.0.3"
-    tslib "^2.3.0"
+    "@reach/utils" "0.18.0"
 
-"@reach/utils@0.16.0":
-  version "0.16.0"
-  resolved "https://registry.npmjs.org/@reach/utils/-/utils-0.16.0.tgz"
-  dependencies:
-    tiny-warning "^1.0.3"
-    tslib "^2.3.0"
+"@reach/utils@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.18.0.tgz#4f3cebe093dd436eeaff633809bf0f68f4f9d2ee"
 
 "@react-google-maps/api@^2.7.0":
   version "2.7.0"
@@ -1534,18 +1526,14 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
 
-tabbable@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/tabbable/-/tabbable-4.0.0.tgz"
+tabbable@^5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-5.3.3.tgz#aac0ff88c73b22d6c3c5a50b1586310006b47fbf"
 
 text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   integrity "sha1-f17oI66AUgfACvLfSoTsP8+lcLQ= sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw=="
-
-tiny-warning@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/tiny-warning/-/tiny-warning-1.0.3.tgz"
 
 to-regex-range@^5.0.1:
   version "5.0.1"
@@ -1565,10 +1553,6 @@ tsconfig-paths@^3.12.0, tsconfig-paths@^3.9.0:
 tslib@^1.8.1:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
-
-tslib@^2.3.0:
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz"
 
 tsutils@^3.21.0:
   version "3.21.0"
