@@ -305,9 +305,11 @@
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
   integrity "sha1-7ihweulOEdK4J7y+UnC86n8+ce4= sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ=="
 
-"@types/node@^17.0.17":
-  version "17.0.17"
-  resolved "https://registry.npmjs.org/@types/node/-/node-17.0.17.tgz"
+"@types/node@^24.10.1":
+  version "24.10.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.1.tgz#91e92182c93db8bd6224fca031e2370cef9a8f01"
+  dependencies:
+    undici-types "~7.16.0"
 
 "@types/prop-types@*":
   version "15.7.4"
@@ -2533,6 +2535,10 @@ unbox-primitive@^1.1.0:
     has-bigints "^1.0.2"
     has-symbols "^1.1.0"
     which-boxed-primitive "^1.1.1"
+
+undici-types@~7.16.0:
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.16.0.tgz#ffccdff36aea4884cbfce9a750a0580224f58a46"
 
 unrs-resolver@^1.6.2:
   version "1.11.1"
